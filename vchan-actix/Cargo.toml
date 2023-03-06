@@ -1,0 +1,28 @@
+[package]
+name = "vchan-actix"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+actix-web = { version = "4.3.0", features = ["openssl"] }
+openssl = { version = "0.10.45" }
+
+actix-cors = "0.6.4"
+serde_json = { version = "1" }
+bson = "2.4.0"
+
+vchan-pg = { path = "../vchan-pg" }
+r2d2 = "0.8.10"
+diesel = { version = "2.0.3", features = [
+    "postgres_backend",
+    "postgres",
+    "r2d2",
+] }
+serde = { version = "1.0.152", features = ["derive"] }
+toml = "0.7.2"
+rand = "0.8.5"
+hex = "0.4.3"
+regex = "1.7.1"
+lazy_static = "1.4.0"

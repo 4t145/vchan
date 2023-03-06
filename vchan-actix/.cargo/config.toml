@@ -1,0 +1,4 @@
+[env]
+CONFIG = "./config/config.default.toml"
+PORT = "80"
+DOMAIN = "localhost"

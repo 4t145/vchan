@@ -1,0 +1,4 @@
+[r2d2]
+threads = 4
+max_connection = 16
+db_url = "postgres://27970:sower1764@localhost/vchan"

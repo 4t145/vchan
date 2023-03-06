@@ -1,0 +1,1 @@
+pub const COOKIE_TOKEN_KEY: &'static str = "vchan_token";
